@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    /* padding-bottom: 0.75rem; */
+    color: #8A8A8A;
+}
+
+.active{
+    border-bottom: 2px solid #000;
+    padding-bottom: 1rem;
+    transform: scale(1.1);
+    color: #000;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.desktopMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobileMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .desktopMenu{
+        display: none;
+    }
+}

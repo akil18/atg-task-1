@@ -1,0 +1,21 @@
+.textShare{
+    display: none;
+}
+
+.viewSM{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .viewSM{
+        display: block;
+    }
+
+    .viewLG{
+        display: none;
+    }
+
+    .textShare{
+        display: block;
+    }
+}

@@ -1,0 +1,43 @@
+.banner{
+    display: block;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.banner2{
+    display: none;
+}
+
+.banner-img{
+    width: 100%;
+    opacity: 0.6;
+}
+
+.join-group{
+    width: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .banner{
+        display: none;
+    }
+
+    .banner2{
+        display: block;
+    }
+
+    .banner-text{
+        left: 5%;
+    }
+
+    .banner-heading{
+        font-size: 1.5rem;
+    }
+}
